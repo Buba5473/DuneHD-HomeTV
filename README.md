@@ -11,7 +11,7 @@ tar xvzf home_tv_nsk_backup_3.2.4.tar.gz
 chown root:root /config/home_tv_plugin_cookies.properties
 chown root:root -R /flashdata/plugins_data/home_tv
 chmod 777 /config/home_tv_plugin_cookies.properties
-chmod 777 -R /config/home_tv_plugin_cookies.properties
+chmod 777 -R /flashdata/plugins_data/home_tv
 ```
 Если сбилась телепрограмма, сделайте групповое редактирование сдвига на +1 час. Групповым редактированием же сдвиг программы эфирных (новосибирских) телеканалов верните на 0
 Перезагрузите приставку.
